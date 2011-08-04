@@ -11,7 +11,8 @@ WriteMakefile
                    'PerlIO::gzip' => 0,
                    'Test::More' => 0,
                    'URI' => 0,
-                   'Webservice::InterMine' => '0.97'
+                   'Webservice::InterMine' => '0.9807',
+                   'namespace::autoclean' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

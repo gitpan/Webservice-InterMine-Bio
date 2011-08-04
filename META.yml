@@ -16,7 +16,7 @@ name: Webservice-InterMine-Bio
 provides:
   Webservice::InterMine::Bio:
     file: lib/Webservice/InterMine/Bio.pm
-    version: 0.9800
+    version: 0.9801
   Webservice::InterMine::Bio::BEDQuery:
     file: lib/Webservice/InterMine/Bio/BEDQuery.pm
     version: 0
@@ -38,7 +38,8 @@ requires:
   Moose: 2.0
   PerlIO::gzip: 0
   URI: 0
-  Webservice::InterMine: 0.97
+  Webservice::InterMine: 0.9807
+  namespace::autoclean: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.9800
+version: 0.9801
