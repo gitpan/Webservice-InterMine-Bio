@@ -35,7 +35,7 @@
             "Moose" : "2.0",
             "PerlIO::gzip" : 0,
             "URI" : 0,
-            "Webservice::InterMine" : "0.9807",
+            "Webservice::InterMine" : "0.9810",
             "namespace::autoclean" : 0
          }
       }
@@ -43,7 +43,7 @@
    "provides" : {
       "Webservice::InterMine::Bio" : {
          "file" : "lib/Webservice/InterMine/Bio.pm",
-         "version" : "0.9801"
+         "version" : "0.9802"
       },
       "Webservice::InterMine::Bio::BEDQuery" : {
          "file" : "lib/Webservice/InterMine/Bio/BEDQuery.pm",
@@ -57,6 +57,10 @@
          "file" : "lib/Webservice/InterMine/Bio/GFFQuery.pm",
          "version" : 0
       },
+      "Webservice::InterMine::Bio::RegionQuery" : {
+         "file" : "lib/Webservice/InterMine/Bio/RegionQuery.pm",
+         "version" : 0
+      },
       "Webservice::InterMine::Bio::SequenceFeatureQuery" : {
          "file" : "lib/Webservice/InterMine/Bio/SequenceFeatureQuery.pm",
          "version" : 0
@@ -68,5 +72,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.9801"
+   "version" : "0.9802"
 }
