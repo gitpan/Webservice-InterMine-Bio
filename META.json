@@ -4,7 +4,7 @@
       "Alex Kalderimis <dev@intermine.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -35,7 +35,7 @@
             "Moose" : "2.0",
             "PerlIO::gzip" : 0,
             "URI" : 0,
-            "Webservice::InterMine" : "0.9810",
+            "Webservice::InterMine" : "0.9909",
             "namespace::autoclean" : 0
          }
       }
@@ -43,7 +43,7 @@
    "provides" : {
       "Webservice::InterMine::Bio" : {
          "file" : "lib/Webservice/InterMine/Bio.pm",
-         "version" : "0.9802"
+         "version" : "0.9900"
       },
       "Webservice::InterMine::Bio::BEDQuery" : {
          "file" : "lib/Webservice/InterMine/Bio/BEDQuery.pm",
@@ -72,5 +72,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.9802"
+   "version" : "0.9900"
 }

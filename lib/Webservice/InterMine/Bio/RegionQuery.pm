@@ -132,14 +132,14 @@ sub _get_query {
     return $self->json->encode($query);
 }
 
-=head2 get_request_parameters (List)
+=head2 get_list_request_parameters(List[Str => Str])
 
 Returns the request parameters that this region query represents. 
-This method is a required part of the ListableQuery role.
+This method is a required part of the Listable role.
 
 =cut
 
-sub get_request_parameters {
+sub get_list_request_parameters {
     my $self = shift;
     return (query => $self->_get_query());
 }
@@ -147,7 +147,7 @@ sub get_request_parameters {
 =head2 list_upload_path (Str)
 
 Returns the path to append to the base url to create a new list.
-This method is a required part of the ListableQuery role.
+This method is a required part of the Listable role.
 
 =cut
 
@@ -160,7 +160,7 @@ sub list_upload_path {
 
 Returns the path to append to the base url to append elements to an existing list.
 At present this is not implemented.
-This method is a required part of the ListableQuery role.
+This method is a required part of the Listable role.
 
 =cut
 
@@ -217,7 +217,7 @@ sub gff3 {
 }
 
 with 'Webservice::InterMine::Role::KnowsJSON';
-with 'Webservice::InterMine::Query::Roles::Listable';
+with 'Webservice::InterMine::Role::Listable';
 
 no Moose;
 __PACKAGE__->meta->make_immutable();

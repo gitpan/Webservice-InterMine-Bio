@@ -2,20 +2,20 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'NAME' => 'Webservice::InterMine::Bio',
-  'VERSION_FROM' => 'lib/Webservice/InterMine/Bio.pm',
-  'PREREQ_PM' => {
-                   'File::Temp' => 0,
-                   'IO::Handle' => 0,
-                   'Moose' => '2.0',
-                   'PerlIO::gzip' => 0,
-                   'Test::More' => 0,
-                   'URI' => 0,
-                   'Webservice::InterMine' => '0.9810',
-                   'namespace::autoclean' => 0
-                 },
-  'INSTALLDIRS' => 'site',
-  'EXE_FILES' => [],
-  'PL_FILES' => {}
-)
+          'PL_FILES' => {},
+          'INSTALLDIRS' => 'site',
+          'NAME' => 'Webservice::InterMine::Bio',
+          'EXE_FILES' => [],
+          'VERSION_FROM' => 'lib/Webservice/InterMine/Bio.pm',
+          'PREREQ_PM' => {
+                           'namespace::autoclean' => 0,
+                           'URI' => 0,
+                           'IO::Handle' => 0,
+                           'Test::More' => 0,
+                           'PerlIO::gzip' => 0,
+                           'File::Temp' => 0,
+                           'Webservice::InterMine' => '0.9909',
+                           'Moose' => '2.0'
+                         }
+        )
 ;
